@@ -48,9 +48,9 @@ document
 
     // Items de coleta
 
-    const itemsToColect = document.querySelectorAll(".items-grid li")
+    const itemsToCollect = document.querySelectorAll(".items-grid li")
 
-    for (const item of itemsToColect) {
+    for (const item of itemsToCollect) {
         item.addEventListener("click", handleSelectedItem)
     }
 
@@ -64,7 +64,7 @@ document
         // adicionar ou remorver uma classe com js (toggle/add/remove)
         itemLi.classList.toggle("selected")
 
-        const itemId = itemLi.datset.id
+        const itemId = itemLi.dataset.id
 
 
 
